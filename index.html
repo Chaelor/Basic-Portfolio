@@ -2,8 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
         <title>
             Josh's Portfolio
         </title>
@@ -11,20 +11,23 @@
 
     <body>
         <div class="container"> 
-            <section class="navagation">
-                <h1>Joshua Joseph</h1>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </section>
+                <header>
+                    <h1>Joshua Joseph</h1>
+                    <ul class="nav">
+                        <li class="navLi"><a href="index.html">About</a></li>
+                        <li class="navLi"><a href="portfolio.html">Portfolio</a></li>
+                        <li class="navLi"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </header>
 
             <section class="mainPageContent">
                 <h2>
                     About Me
                 </h2>
-                <hr>
-                <p> Hello and welcome to my portfolio! My name is Joshua Joseph and I am currently going through a web development bootcamp through Northwestern University. It's still within the first two weeks, but I am happy to finally persue a career in this field in a few short months. Before this class I knew HTML and CSS. I am looking forward into learning other things to:
-                    <ul>
+                <hr class="hrDivider">
+                
+                <p><img src="./assets/images/me.jpeg" alt="This is a photo of me" class="imgMain"/> Hello and welcome to my portfolio! My name is Joshua Joseph and I am currently going through a web development bootcamp through Northwestern University. It's still within the first two weeks, but I am happy to finally persue a career in this field in a few short months. Before this class I knew HTML and CSS. I am looking forward into learning other things to:
+                    <ul class="mainUL">
                         <li>Javascript</li>
                         <li>JQuery</li>
                         <li>Ruby on Rails</li>
@@ -40,8 +43,9 @@
             </section>
 
             <section class="footer">
-                Copyright
+                <span>Copyright</span>
             </section>
         </div>
     </body>
+
 </html>

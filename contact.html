@@ -2,43 +2,45 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
         <title>
             Josh's Portfolio
         </title>
     </head>
 
-    <body>
+    <body> 
         <div class="container"> 
-            <section class="navagation">
+            <header>
                 <h1>Joshua Joseph</h1>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </section>
+                <ul class="nav">
+                    <li class="navLi"><a href="index.html">About</a></li>
+                    <li class="navLi"><a href="portfolio.html">Portfolio</a></li>
+                    <li class="navLi"><a href="contact.html">Contact</a></li>
+                </ul>
+            </header>
 
             <section class="mainPageContent">
                 <h2>
                     Contact Me
                 </h2>
-                <hr>
+                <hr class="hrDivider">
 
                 <form>
-                    Name:<br>
-                    <input type="text" name="name" value="Your name here"><br>
-                    Email:<br>
-                    <input type="text" name="email" value="Your email here"><br>
-                    Message:<br>
-                    <input type="text" name="message"><br>
-                    <input type="submit" value="Submit">
+                    <label>Name:</label><br>
+                    <input id="Name" type="text"><br>
+                    <label>Email:</label><br>
+                    <input id="email" type="text"><br>
+                    <label>Message:</label><br>
+                    <input id="message" type="text">
+                    <input type="submit" value="Submit" id="submit">
 
                 </form>
 
             </section>
 
             <section class="footer">
-                    Copyright
+                    <span>Copyright</span>
             </section>
         </div>
     </body>
