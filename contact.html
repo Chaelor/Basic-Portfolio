@@ -2,46 +2,57 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/reset.css">
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-        <title>
-            Josh's Portfolio
-        </title>
+        <title>Joshua Joseph || About Me</title>
+
+        <!-- Style Sheets-->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     </head>
+    <body>
 
-    <body> 
-        <div class="container"> 
-            <header>
-                <h1>Joshua Joseph</h1>
-                <ul class="nav">
-                    <li class="navLi"><a href="index.html">About</a></li>
-                    <li class="navLi"><a href="portfolio.html">Portfolio</a></li>
-                    <li class="navLi"><a href="contact.html">Contact</a></li>
-                </ul>
-            </header>
+        <!-- Header and Navagation -->
+        <header>
+            <div class="headerContainer">
+                <div class="headerContent">
+                    <div class="headerH1">
+                        <a href="index.html"><h1>Joshua Joseph</h1></a>
+                    </div>
+                    <div class="headerNav">
+                        <a class="navLink" href="./index.html">About</a>
+                        <a class="navSpacer"> | </a>
+                        <a class="navLink" href="./portfolio.html">Portfolio</a>
+                        <a class="navSpacer"> | </a>
+                        <a class="navLink" href="./contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-            <section class="mainPageContent">
+
+        <!-- Main Container, and body content -->
+        <div class="mainContainer">
+            <div class="mainContent">
                 <h2>
-                    Contact Me
+                        Contact Me
                 </h2>
                 <hr class="hrDivider">
-
+        
                 <form>
-                    <label>Name:</label><br>
-                    <input id="Name" type="text" placeholder="Your Name Here"><br>
-                    <label>Email:</label><br>
-                    <input id="email" type="text" placeholder="Your email here"><br>
-                    <label>Message:</label><br>
-                    <input id="message" type="text" placeholder="Why are you contacting me?">
+                    <label>Name:</label>
+                        <input id="Name" type="text" placeholder="Your Name Here">
+                    <label>Email:</label>
+                        <input id="email" type="email" placeholder="Your email here">
+                    <label>Message:</label>
+                        <textarea id="message" type="text" placeholder="Why are you contacting me?"></textarea>
                     <input type="submit" value="Submit" id="submit">
-
                 </form>
-
-            </section>
-
-            <section class="footer">
-                    <span>Copyright</span>
-            </section>
+            </div>
         </div>
+
+        <!-- Sticky Footer -->
+        <footer>
+                <span>Copyright &copy;</span>
+        </footer>>
     </body>
 </html>

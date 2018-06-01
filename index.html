@@ -2,31 +2,46 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/reset.css">
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-        <title>
-            Josh's Portfolio
-        </title>
+        <title>Joshua Joseph || About Me</title>
+
+        <!-- Style Sheets-->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     </head>
-
     <body>
-        <div class="container"> 
-                <header>
-                    <h1>Joshua Joseph</h1>
-                    <ul class="nav">
-                        <li class="navLi"><a href="index.html">About</a></li>
-                        <li class="navLi"><a href="portfolio.html">Portfolio</a></li>
-                        <li class="navLi"><a href="contact.html">Contact</a></li>
-                    </ul>
-                </header>
 
-            <section class="mainPageContent">
+        <!-- Header and Navagation -->
+        <header>
+            <div class="headerContainer">
+                <div class="headerContent">
+                    <div class="headerH1">
+                        <a href="index.html"><h1>Joshua Joseph</h1></a>
+                    </div>
+                    <div class="headerNav">
+                        <a class="navLink" href="./index.html">About</a>
+                        <a class="navSpacer"> | </a>
+                        <a class="navLink" href="./portfolio.html">Portfolio</a>
+                        <a class="navSpacer"> | </a>
+                        <a class="navLink" href="./contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Container, and body content -->
+        <div class="mainContainer">
+            <div class="mainContent">
                 <h2>
                     About Me
                 </h2>
                 <hr class="hrDivider">
                 
-                <p><img src="./assets/images/me.jpeg" alt="This is a photo of me" class="imgMain"/> Hello and welcome to my portfolio! My name is Joshua Joseph and I am currently going through a web development bootcamp through Northwestern University. It's still within the first two weeks, but I am happy to finally persue a career in this field in a few short months. Before this class I knew HTML and CSS. I am looking forward into learning other things to:
+                <img src="./assets/images/me.jpeg" alt="This is a photo of me" class="imgMain"/> 
+                <p>Hello and welcome to my portfolio! My name is Joshua Joseph and I am currently going through a web development bootcamp through Northwestern University. 
+                It's still within the first two weeks, but I am happy to finally persue a career in this field in a few short months. 
+                Before this class I knew HTML and CSS. I am looking forward to learning these other things too: </p>
+                <p>
                     <ul class="mainUL">
                         <li>Javascript</li>
                         <li>JQuery</li>
@@ -38,14 +53,18 @@
                         <li>And many others!</li>
                     </ul>
                 </p>
-
-                <p>What do I like to do in my spare time, though? Video games, of course. I have been in a top 200 world raiding guild for World of Warcraft, but have retired from that scene. I have also become a grandmaster level player in Blizzard's other game: Overwatch. In World of Warcraft I played a warlock for about 7 years and in Overwatch, I main flex support, which means that I play characters like Moira, Zenyatta, and now Brigitte. If I am not playing video games I am teaching myself how to play piano, which I can't wait to explore more.</p>
-            </section>
-
-            <section class="footer">
-                <span>Copyright</span>
-            </section>
+                <p>
+                What do I like to do in my spare time, though? Video games, of course. 
+                I have been in a top 200 world raiding guild for World of Warcraft, but have retired from that scene. 
+                I have also become a grandmaster level player in Blizzard's other game: Overwatch. In World of Warcraft I played a warlock for about 7 years and in Overwatch, I main flex support, which means that I play characters like Moira, Zenyatta, and now Brigitte. 
+                If I am not playing video games I am teaching myself how to play piano, which I can't wait to explore more.</p>
+                </p>
+            </div>
         </div>
-    </body>
 
+        <!-- Sticky Footer -->
+        <footer>
+                <span>Copyright &copy;</span>
+        </footer>>
+    </body>
 </html>
